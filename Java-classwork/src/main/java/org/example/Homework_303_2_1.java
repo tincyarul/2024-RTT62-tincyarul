@@ -20,7 +20,7 @@ public class Homework_303_2_1 {
         double double_firstNumber = 3.5;
         double double_secondNumber = 4.7;
         double result = double_firstNumber + double_secondNumber;
-        System.out.println("\nProgram: 2 \nThe sum of " + firstNumber + " and " + secondNumber + " is: " + result);
+        System.out.println("\nProgram: 2 \nThe sum of " + double_firstNumber + " and " + double_secondNumber + " is: " + result);
 
 
         //Write a program that declares an integer variable and a double variable, assigns numbers to each, and adds them together.
