@@ -11,17 +11,13 @@ public class Task7_IncrementExample {
     public static void main(String[] args) {
         int x = 5;
         int y = 8;
-
-        // Pre-increment (++x) - Increment x first, then calculate the sum
         int sum = ++x + y;
-        System.out.println("Sum with pre-increment: " + sum); // Output: 14
+        System.out.println("Sum with pre-increment: " + sum);
 
-        // Reset x
         x = 5;
 
-        // Post-increment (x++) - Calculate the sum first, then increment x
         sum = x++ + y;
-        System.out.println("Sum with post-increment: " + sum); // Output: 13
+        System.out.println("Sum with post-increment: " + sum);
     }
 }
 

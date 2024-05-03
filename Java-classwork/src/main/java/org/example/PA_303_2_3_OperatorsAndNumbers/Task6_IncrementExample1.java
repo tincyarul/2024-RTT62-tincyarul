@@ -5,15 +5,12 @@ package org.example.PA_303_2_3_OperatorsAndNumbers;
 
 public class Task6_IncrementExample1 {
     public static void main(String[] args) {
-        // Method 1: Using the increment operator (++)
         int x = 5;
         System.out.println("Initial value: " + x);
         x++;
         System.out.println("After incrementing using ++: " + x);
         x++;
         System.out.println("After incrementing using ++ again: " + x);
-
-        // Method 2: Using the addition operator (+)
         int y = 5;
         System.out.println("\nInitial value: " + y);
         y = y + 1;
