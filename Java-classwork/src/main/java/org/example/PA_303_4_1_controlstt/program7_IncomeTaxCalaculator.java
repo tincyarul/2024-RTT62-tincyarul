@@ -65,6 +65,7 @@ public class program7_IncomeTaxCalaculator {
         while (i < brackets.length && income > brackets[i]) {
             if (i == 0) {
                 tax += brackets[i] * rates[i];
+
             } else {
                 tax += (brackets[i] - brackets[i - 1]) * rates[i];
             }
