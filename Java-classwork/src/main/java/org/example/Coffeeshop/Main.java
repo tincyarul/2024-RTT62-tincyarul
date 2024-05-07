@@ -2,7 +2,9 @@ package org.example.Coffeeshop;
 
 public class Main {
 
-    private org.example.coffeeshop.CoffeeShop;
+
+
+    private org.example.coffeeshop.CoffeeShop coffeeShop;
 
     public void printMenu() {
         System.out.println("0) Exit");
@@ -12,9 +14,9 @@ public class Main {
     }
 
     public void runCoffeeShop() {
-        org.example.coffeeshop.CoffeeShop CoffeeShop = new org.example.coffeeshop.CoffeeShop();
-        CoffeeShop.initProducts();
-        CoffeeShop.printProducts();
+        coffeeShop = new org.example.coffeeshop.CoffeeShop();
+        coffeeShop.initProducts();
+        coffeeShop.printProducts();
     }
 
     public static void main(String[] args) {
@@ -23,4 +25,6 @@ public class Main {
     }
 
 }
+
+
 

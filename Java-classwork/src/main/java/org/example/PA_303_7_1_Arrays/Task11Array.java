@@ -18,6 +18,8 @@ package org.example.PA_303_7_1_Arrays;
 
 //Favourite Things
 
+import java.util.Scanner;
+
 public class Task11Array {public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
