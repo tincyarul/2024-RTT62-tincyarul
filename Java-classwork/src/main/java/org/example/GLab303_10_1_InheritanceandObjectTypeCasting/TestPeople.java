@@ -33,7 +33,7 @@ public class TestPeople {
         System.out.println(Person.lifeSpan());
         System.out.println(Boy.lifeSpan());
         System.out.println(Girl.lifeSpan());
-        System.out.println(((Boy)aPerson).talk());
+        System.out.println(aPerson.talk());
     }
 
 }

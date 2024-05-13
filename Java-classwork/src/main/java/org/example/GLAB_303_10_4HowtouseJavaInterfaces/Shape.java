@@ -1,6 +1,6 @@
 package org.example.GLAB_303_10_4HowtouseJavaInterfaces;
 
-public class Shape {
+public abstract class Shape {
     protected String color;
     protected double height; // To hold height.
     protected double width; //To hold width
@@ -19,14 +19,8 @@ public class Shape {
     }
 // The getArea method is abstract.
 // It must be overridden in a subclass.
-
-    /**
-     * All shapes must provide a method called getArea()
-     */
-    public double getArea() {
-        return 0;
-    }
-
+    /** All shapes must provide a method called getArea() */
+    public abstract double getArea();
     /** Returns a self-descriptive string */
     public String toString() {
         return "Shape[color=" + color + "]";
@@ -35,5 +29,4 @@ public class Shape {
     {
         System.out.println("I am a Shape.");
     }
-
 }

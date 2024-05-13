@@ -42,20 +42,16 @@ public class Shape {
     public String toString() {
         return "Shape[color=" + color + "]";
     }
-
-    /**
-     * All shapes must provide a method called getArea()
-     */
+    /** All shapes must provide a method called getArea() */
     public double getArea() {
+// We have a problem here!
+// We need to return some value to compile the program.
         System.out.println("Shape unknown! Cannot compute area!");
         return 0;
     }
-
-    // We have a problem here!
-// We need to return some value to compile the progra
-
     public void displayshapName()
     {
         System.out.println("I am a Shape.");
     }
+
 }
